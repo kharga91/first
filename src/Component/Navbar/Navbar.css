@@ -1,0 +1,77 @@
+.n-wrapper {
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.n-left {
+  flex: 1;
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+  
+
+}
+
+
+.logo {
+  height: 25vh;
+  
+  margin-left: 4rem;
+  
+}
+.n-logo{
+  transition: 1s;
+  
+  
+
+}
+.n-logo:hover{
+  transform: scale(1.3);
+  z-index: 2;
+}
+
+.logo:hover {
+  cursor: pointer;
+  
+}
+
+.n-right {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  font-weight: bold;
+  align-items: center;
+
+
+
+}
+
+.n-list>ul>li {
+  flex: 1;
+  transition: 0.5s;
+}
+
+
+
+.n-list>ul>li:hover{
+  transform: scale(1.5);
+  
+}
+
+.n-list>ul {
+  display: flex;
+  gap: 3rem;
+  margin-right: 2rem;
+  font-size: 20px;
+  
+
+}
+
+.n-list>ul>li:hover {
+  cursor: pointer;
+  color: var(--lightslateblue);
+  
+
+}
