@@ -47,6 +47,12 @@
 
 
 }
+.n-button{
+  width: 11rem;
+  height: 3rem;
+  
+  
+}
 
 .n-list>ul>li {
   flex: 1;

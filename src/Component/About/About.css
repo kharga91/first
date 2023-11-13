@@ -1,0 +1,102 @@
+.about {
+  display: flex;
+  flex: 1;
+  margin-top: 0rem;
+  height: 160vh;
+  margin-left: 2rem;
+  
+}
+
+.a {
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  color: var(--persionindigo);
+  margin-left: 26rem;
+
+}
+
+.a-left {
+
+  position: relative;
+  flex-direction: column;
+  margin-top: 2rem;
+
+}
+
+.a-about {
+  margin-top: 2rem;
+
+}
+
+
+.cards {
+  position: relative;
+}
+
+.cards>* {
+  position: absolute;
+}
+
+
+  {
+  /*right side*/
+}
+
+.a-right {
+  position: relative;
+}
+
+.a-maincircle {
+  left: 3rem;
+  position: relative;
+  height: 30rem;
+  width: 30rem;
+  border-radius: 100%;
+  box-shadow: var(--lightslateblue);
+  top: 15rem;
+  background-color: lightcyan ;
+  
+}
+.a-maincircle>*{
+  position: absolute;
+}
+.a-semicircle{
+  bottom: 25rem;
+  left: 11rem;
+}
+
+.b-semicircle{
+  top: 12rem;
+  right: 25rem;
+}
+.c-semicircle{
+  top: 12rem;
+  left: 25rem;
+}
+.d-semicircle{
+top: 25rem;
+left: 12rem;
+}
+.e-semicircle{
+  top: 12rem;
+  left: 12rem;
+}
+.semicircle{
+  height: 7rem;
+  width: 7rem;
+  border-radius: 100%;
+  position: absolute;
+  border: 5px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  box-shadow: var(--smboxShadow);
+  background-color: var(--lightcyan);
+  
+}
+.semicircle>img{
+  transform: scale(1.2);
+
+}

@@ -1,0 +1,84 @@
+.home {
+  display: flex;
+  height: 80vh;
+  margin-top: 3rem;
+  margin-left: 4rem;
+  
+  
+  
+  
+}
+
+.h-left {
+  display: flex;
+  position: relative;
+  margin-top: 2rem;
+  flex-direction: column;
+  flex: 1;
+}
+
+.h-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.h-name>:nth-child(1) {
+  color: rgb(71, 69, 69);
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.h-name>:nth-child(2) {
+  color: var(--persionindigo);
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.h-name>:nth-child(3) {
+  color: var(#9c89ff);
+  font-size: 25px;
+  font-weight: 100;
+  margin-top: 1rem;
+
+}
+
+.h-button{
+  height: 3rem;
+  width: 8rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.h-icon{
+margin: 1rem ;
+display: flex;
+gap: 0rem;
+height: 80rem;
+width: 10rem;
+margin-top: 1rem;
+}
+.h-icon>*{
+  transition: 0.5s;
+ }
+ .h-icon>*:hover{
+  cursor: pointer;
+  transform: scale(1.5);
+  
+
+ }
+ .h-right{
+  margin-right: 3rem;
+  display: flex;
+  height: 77vh;
+ }
+
+ .hr-button{
+  height: 3rem;
+  width: 8rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  
+  
+  
+ }
+
+

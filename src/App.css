@@ -4,7 +4,7 @@
   --lightslateblue: #9c89ff;
   --cornflower: #99cced;
   --blueCard: #DDF8FE;
-  --lightcyan: #c4feff;
+  --lightcyan: #c0f5f5;
   --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
   --orangeCard: rgba(252, 166, 31, 0.45);
   --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
@@ -21,18 +21,18 @@
   border: none;
   color: white;
   font-size: 12px;
-  padding: 12px 60px 12px 60px;
+  padding: 12px 40px 12px 40px;
   margin-right: 2rem;
   background: linear-gradient(180deg,#a312f1 25%, #7e3887 99.36% );
   box-shadow: 0px 20px 24px 3px rgba(175, 8, 190, 0.938);
 
 }
-.n-button{
+.button{
   flex: 2;
 }
-.n-button:hover{
+button:hover{
   color: var(--lightslateblue);
-  border: 1px solid var(--purpleheart);
+  border: 2px solid purple;
   font-weight: bold;
   cursor: pointer;
 }
