@@ -7,7 +7,7 @@ const Card = ({heading, details}) => {
       
       <span>{heading}</span>
       <span>{details}</span>
-      <button className="c-button">LEARNMORE</button>
+      <button className="c-button">LEARN MORE</button>
 
     </div>
   )

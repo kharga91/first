@@ -24,7 +24,7 @@
   padding: 12px 40px 12px 40px;
   margin-right: 2rem;
   background: linear-gradient(180deg,#a312f1 25%, #7e3887 99.36% );
-  box-shadow: 0px 20px 24px 3px rgba(175, 8, 190, 0.938);
+  box-shadow: 0px 20px 24px 3px rgba(236, 144, 247, 0.938);
 
 }
 .button{
@@ -35,4 +35,5 @@ button:hover{
   border: 2px solid purple;
   font-weight: bold;
   cursor: pointer;
+  box-shadow: 0px 20px 24px 3px rgba(175, 8, 190, 0.938);
 }

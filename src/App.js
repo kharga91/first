@@ -4,6 +4,9 @@ import Navbar from './Component/Navbar/Navbar'
 import Home from './Component/Home/Home'
 import About from './Component/About/About'
 import Education from './Component/Education/Education'
+import Services from './Component/Services/Services'
+
+
 
 function App () {
   return (
@@ -12,6 +15,9 @@ function App () {
       <Home/>
       <About/>
       <Education/>
+      <Services/>
+      
+      
     </div>
   )
 }

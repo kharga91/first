@@ -2,6 +2,7 @@
   height: 20vh;
   display: flex;
   justify-content: space-between;
+  
 
 }
 
@@ -77,7 +78,7 @@
 
 .n-list>ul>li:hover {
   cursor: pointer;
-  color: var(--lightslateblue);
+  color: var(--purpleheart);
   
 
 }

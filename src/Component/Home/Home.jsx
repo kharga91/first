@@ -20,7 +20,11 @@ const Home = () => {
           </span>
 
         </div>
-        <button className="button h-button">Hire Me</button>
+        <div>
+        <button className="button h-button">HIRE ME</button>
+        <button className="button hd-button">DOWNLOAD CV</button>
+        </div>
+
         <div className="h-icon">
           <a href="https://github.com/kharga91">
           <img src={Github} alt="GitHub" />
@@ -34,6 +38,7 @@ const Home = () => {
           
 
         </div>
+        
       </div>
 
       <div className="h-right">

@@ -29,7 +29,7 @@ const About = () => {
             <div style={{ top: '32rem', left: '40rem' }}>
               <Card
                 heading={'Skills'}
-                details={'HTML CSS JavaScript React Tailwind SEO Google Analytics Technical SEO Local SEO Content Marketing      Pay Per Cick       Social Media Marketing      Influencer Marketing     Email Marketing Affiliate Marketing '}
+                details={'HTML CSS JavaScript React Tailwind SEO Google Analytics Technical SEO Local SEO Content Marketing         Pay Per Cick       Social Media Marketing      Influencer Marketing     Email Marketing Affiliate Marketing '}
               />
             </div>
           </div>

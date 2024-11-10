@@ -4,6 +4,7 @@
   margin-top: 0rem;
   height: 160vh;
   margin-left: 2rem;
+  margin-top: 4rem;
   
 }
 
@@ -12,7 +13,8 @@
   font-weight: bold;
   position: absolute;
   color: var(--persionindigo);
-  margin-left: 26rem;
+  margin-left: 38rem;
+  
 
 }
 

@@ -1,11 +1,8 @@
 .home {
   display: flex;
-  height: 80vh;
+  height: 75vh;
   margin-top: 3rem;
   margin-left: 4rem;
-  
-  
-  
   
 }
 
@@ -42,43 +39,43 @@
 
 }
 
-.h-button{
+.h-button {
   height: 3rem;
-  width: 8rem;
+  width: 9rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-.h-icon{
-margin: 1rem ;
-display: flex;
-gap: 0rem;
-height: 80rem;
-width: 10rem;
-margin-top: 1rem;
+
+.hd-button {
+
+  height: 3rem;
+  width: 11rem;
+  margin-left: 1rem;
+
 }
-.h-icon>*{
+
+.h-icon {
+  margin: 1rem;
+  display: flex;
+  gap: 0rem;
+  height: 80rem;
+  width: 10rem;
+  margin-top: 1rem;
+}
+
+.h-icon>* {
   transition: 0.5s;
- }
- .h-icon>*:hover{
+}
+
+.h-icon>*:hover {
   cursor: pointer;
   transform: scale(1.5);
-  
 
- }
- .h-right{
+
+}
+
+.h-right {
   margin-right: 3rem;
   display: flex;
   height: 77vh;
- }
-
- .hr-button{
-  height: 3rem;
-  width: 8rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  
-  
-  
- }
-
-
+}

@@ -22,8 +22,7 @@ const navbar = () => {
           <li>Contact</li>
         </ul>
       </div>
-      <button className="button n-button">DOWNLOAD 
-      CV</button>
+      <button className="button n-button">SIGN UP</button>
     </div>
    </div>
   )
